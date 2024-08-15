@@ -1,0 +1,16 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Objective: Build a simple shopping cart app to learn and solidify core JavaScript concepts. The project will guide you through creating an interactive web application that allows users to add items to a cart, view their cart, and remove items.",
+  "main": "index.html",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3"
+  }
+}

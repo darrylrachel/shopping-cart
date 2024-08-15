@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+#products, #cart {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+
+#product-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#cart-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+#cart-items li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
